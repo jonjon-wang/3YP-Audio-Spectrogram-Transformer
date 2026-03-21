@@ -1,0 +1,37 @@
+### OS / Editor
+.DS_Store
+
+### Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+### Virtual environments
+.venv/
+venv/
+env/
+
+### Jupyter
+.ipynb_checkpoints/
+
+### Logs / caches
+*.log
+.pytest_cache/
+.mypy_cache/
+
+### Large generated data (do not push)
+data/dataspectrogram/
+data/dataspectrogramunnormalized/
+data/datamp3/
+
+### Model artifacts / checkpoints
+models/
+*.pt
+*.pth
+*.ckpt
+
+### Numpy artifacts
+*.npy
+*.npz
