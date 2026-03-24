@@ -21,17 +21,6 @@ env/
 .pytest_cache/
 .mypy_cache/
 
-### Large generated data (do not push)
-data/dataspectrogram/
+### Large old data (do not push)
 data/dataspectrogramunnormalized/
 data/datamp3/
-
-### Model artifacts / checkpoints
-models/
-*.pt
-*.pth
-*.ckpt
-
-### Numpy artifacts
-*.npy
-*.npz
