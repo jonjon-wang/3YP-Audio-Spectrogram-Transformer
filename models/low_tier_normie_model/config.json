@@ -1,0 +1,24 @@
+{
+  "sample_rate": 22050,
+  "hop_length": 220,
+  "n_fft": 551,
+  "power": 2.0,
+  "ref": 1.0,
+  "window_seconds": 4.0,
+  "window_overlap": 2.0,
+  "n_mels": 128,
+  "n_frames": 401,
+  "patch_size": 8,
+  "patch_overlap": 2,
+  "model_dim": 128,
+  "num_layers": 2,
+  "num_heads": 4,
+  "mlp_dim": 256,
+  "dropout": 0.0,
+  "out_dim": 2,
+  "extra": {
+    "val_loss": 0.25914310752220143,
+    "val_mse": 0.05216785169128949,
+    "val_ccc": 0.5338816366905424
+  }
+}
